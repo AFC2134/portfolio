@@ -1,2 +1,51 @@
-.header {padding: 20px 35px; color: rgb(8, 233, 249);
-    background-color: #83ae83;}
+* {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+
+.header {padding: 20px 35px; color: #7B6D8D;
+    background-color: #8499B1;}
+
+.header nav {
+    float: right;
+     margin: 7px 0px 30px 0px;
+    }
+.header nav ul li {
+    display: inline;
+    }
+.header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    }
+
+body {background-color: #DDC8C4;}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #6B4D57;
+    margin: 0;
+    display: inline;
+  }
+ .about-me {
+     margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20px;
+     color: #593F62;
+ }  
+.work-samples { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #593F62;
+    
+}
+.placeholder {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #593F62;
+    }
+
+.contact {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #593F62;}
