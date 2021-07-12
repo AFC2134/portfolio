@@ -32,9 +32,12 @@
     display: inline-flexbox;
     }
 .header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 2.5vw;
     color: #ffffff;
     }
 
@@ -44,7 +47,8 @@ body {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-feature-settings: "vrt2" ;
+    font-size: 4.5vw;
     color: #ffffff;
     margin: 0;
     display: inline;
@@ -60,6 +64,9 @@ header h1 {
     color: #ffffff;
 }
 .work-samples article a{
+    color: rgb(56, 155, 138);
+}
+.work-samples aside a{
     color: rgb(56, 155, 138);
 }
 
@@ -91,5 +98,7 @@ header h1 {
 }
 
 .footer h4 {
+    justify-content: space-between;
+    flex-wrap: wrap;
     color:white;
 }
