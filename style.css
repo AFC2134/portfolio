@@ -55,18 +55,45 @@ header h1 {
   }
  .about-me {
      margin-top: 50px;
-     font-family: unset;
-     font-size: 20px;
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: left;
+    flex-wrap: wrap;
      color: #ffffff;
- }  
+} 
+
+.about-me p {    
+     margin-top: 50px;
+    display: flex;
+    font-size: 1.9vw;
+    justify-content: left;
+    flex-wrap: wrap;
+     color: #ffffff;
+    }
 .work-samples { font-family: unset;
-    font-size: 20px;
-    color: #ffffff;
+    margin-top: 50px;
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: left;
+    flex-wrap: wrap;
+     color: #ffffff;
 }
 .work-samples article a{
+    margin-top: 50px;
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: left;
+
+    flex-wrap: wrap;
     color: rgb(56, 155, 138);
 }
 .work-samples aside a{
+    margin-top: 50px;
+    display: flex;
+    font-size: 1.2vw;
+    justify-content: left;
+
+    flex-wrap: wrap;
     color: rgb(56, 155, 138);
 }
 
