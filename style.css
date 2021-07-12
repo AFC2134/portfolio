@@ -60,10 +60,24 @@ header h1 {
     color: rgb(56, 155, 138);
 }
 
-.placeholder {font-family: unset;
+.Screenshots {font-family: unset;
     font-size: 20px;
     color: #ffffff;
     }
+.resize {
+    width: 800px;
+    height: auto;
+}
+
+.resize {
+    width: 500px;
+    height: auto;
+}
+.smaller-size {
+    width: 300px;
+    height: auto;
+
+}
 
 .contact {font-family: unset;
     font-size: 20px;
