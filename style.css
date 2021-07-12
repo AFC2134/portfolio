@@ -170,4 +170,24 @@ following order, after all of the other styles in the style sheet:
 
    flex-wrap: wrap;
    color: rgb(56, 155, 138);
-}
+
+
+.header h1 {}
+      width: 65%;
+      text-align: center;
+    }
+.header nav ul {
+      margin-top: 20px;
+      width: 65%;
+      justify-content: center;
+    }
+  
+header nav ul li a {
+      font-size: 20px;
+    }
+  
+footer h2 {
+      text-align: center;
+      width: 65%;
+    }
+  }
