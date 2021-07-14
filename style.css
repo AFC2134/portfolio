@@ -137,7 +137,7 @@ following order, after all of the other styles in the style sheet:
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   header h1 {
-    font-size: 80px;
+    font-size: 200px;
   }
 }
 
